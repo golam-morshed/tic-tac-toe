@@ -50,7 +50,7 @@ export default function Board({ currentSquare: squares, xIsNext, handleMove }) {
         renderer: "svg",
         loop: false,
         autoplay: true,
-        path: "public/celebrate.json", // the path to the animation json
+        path: "/celebrate.json", // the path to the animation json
       });
       winnerAnimation.classList.remove("hidden");
       // play animation when winner is found
